@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M8alat</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body class="bg-gray-900">
+    <header class="">
+      <div class="bg-gray-900 py-3">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+          <div class="text-2xl font-semibold text-white">PitFall</div>
+          <div class="flex sm:hidden">
+            <button
+              type="button"
+              class="text-white hover:text-gray-400 focus:outline-none focus:text-gray-400"
+              aria-label="toggle menu"
+            >
+              <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div>
+        <div class="my-4 text-white text-4xl font-semibold text-center">
+          <p>عنا</p>
+      </div>
+      <div class="my-8 text-3xl font-semibold text-right mx-5">
+        <p>المساهمين</p>
+        <hr class="my-4 border-yellow-400 w-20 ml-auto"/>
+      </div>
+      <div class="bg-gray-800 rounded-2xl gap-2 my-8 mx-5 flex p-4 flex-row-reverse">
+          <div class="flex flex-col gap-2">
+              <img src="avatar.png" alt="" class="rounded w-12 h-12">
+              <p class="text-center text-xl">الاسم</p>
+              <p class="text-center text-gray-500">كاتب</p>
+          </div>
+          <div class="flex flex-col mx-5 gap-4 justify-between">
+              <p class="h-20 overflow-hidden">جزء من السيرة الذاتية للكاتب</p>
+              <div class="flex flex-row gap-4">
+                  <img src="insta.png" alt="" class="w-8 h-8">
+                  <img src="twitter.png" alt="" class="w-8 h-8">
+                  <img src="facebook.png" alt="" class="w-8 h-8">
+              </div>
+          </div>
+      </div>
+      <div class="my-8 text-3xl font-semibold text-right mx-5">
+        <p>المطورين</p>
+        <hr class="my-4 border-yellow-400 w-20 ml-auto"/>
+      </div>
+      <div class="bg-gray-800 rounded-2xl gap-2 my-8 mx-5 flex p-4 flex-row-reverse">
+          <div class="flex flex-col gap-2">
+              <img src="avatar.png" alt="" class="rounded w-12 h-12">
+              <p class="text-center text-xl">الاسم</p>
+              <p class="text-center text-gray-500">مطور</p>
+          </div>
+          <div class="flex flex-col mx-5 gap-4 justify-between">
+              <p class="h-20 overflow-hidden">جزء من السيرة الذاتية للكاتب</p>
+              <div class="flex flex-row gap-4">
+                  <img src="insta.png" alt="" class="w-8 h-8">
+                  <img src="twitter.png" alt="" class="w-8 h-8">
+                  <img src="facebook.png" alt="" class="w-8 h-8">
+              </div>
+          </div>
+      </div>
+    </main>
+  </body>
+</html>
